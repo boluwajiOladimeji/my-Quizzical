@@ -15,11 +15,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-main {
-  background: #f5f7fb;
-  min-height: 100vh;
-}
-
 .options {
   display: flex;
   gap: 1rem;
@@ -113,6 +108,7 @@ main {
 }
 
 .intro {
+  background: #f5f7fb;
   height: 100vh;
   display: grid;
   place-items: center;
@@ -153,6 +149,7 @@ main {
 }
 
 section {
+  background: #f5f7fb;
   background-image: url('./assets/quiz-blue.svg'),
     url('./assets/quiz-yellow.svg');
   background-position: bottom left, right top;

@@ -7,9 +7,12 @@ import Quiz from './Quiz';
 function App() {
   const [started, setStarted] = useState(false);
 
-  return (
-    <main>{!started ? <HomePage setStarted={setStarted} /> : <Quiz />}</main>
-  );
+  if (!started) return <HomePage setStarted={setStarted} />;
+
+  return <Quiz />;
+
+  // return (
+  //   <main>{!started ? <HomePage setStarted={setStarted} /> : <Quiz />}</main>
 }
 
 export default App;
