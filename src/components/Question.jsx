@@ -1,6 +1,5 @@
 import { decode } from 'html-entities';
 
-/* eslint-disable react/prop-types */
 const Question = ({ question, handleQuestion, isFinished }) => {
   return (
     <div className='question'>
