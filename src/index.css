@@ -2,6 +2,8 @@
   text-align: center;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
 
 body {
   color: #4d5b98;
+  font-family: 'Inter', sans-serif;
 }
 
 main {
@@ -36,6 +39,7 @@ main {
   border-radius: 5px;
   min-width: 6rem;
   color: #293264;
+  cursor: pointer;
 }
 .footer {
   margin-top: 2rem;
@@ -64,6 +68,8 @@ main {
   font-weight: bold;
   background: #4d5b98;
   color: #f5f7fb;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .loader-container {
