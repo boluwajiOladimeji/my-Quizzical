@@ -120,6 +120,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 80%;
+  max-width: 500px;
 }
 
 .home-btn-container {
@@ -149,4 +151,5 @@ section {
     url('./assets/quiz-yellow.svg');
   background-position: bottom left, right top;
   background-repeat: no-repeat, no-repeat;
+  min-height: 100vh;
 }
